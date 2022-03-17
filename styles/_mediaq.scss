@@ -1,0 +1,87 @@
+@media (min-width:1440px){ 
+    main {
+        .logo{
+            img{
+                height: 2.7rem;
+            }
+        }
+
+        .heading{
+            margin-top: 3rem;
+            span{
+                font-weight: 700;
+                color: $very-dark-blue;
+               
+            }
+            .title{
+                margin-top: 2rem;
+                font-size: 5.4rem;
+                 }
+
+
+                p{
+                text-align: center;
+                font-size: 2rem;
+                margin-top: 1.4rem;
+                font-weight: 400;
+                }
+
+
+
+    }
+    .singin{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        .input{
+            width: 38%;
+            padding: 2rem;
+            border-radius: 3rem;
+        }
+
+        .notify_me{
+            margin-top: 2.6rem;
+            width: 18%;
+            padding: 1.9rem;
+            border-radius: 3rem;
+            font-size:1.6rem;
+            margin-left: 1.7rem;
+
+        }
+
+      .error_msg{
+            position: absolute;
+            left:35rem;
+            top: 9rem;
+            display: none;
+        }
+       
+
+
+
+}
+.photo{
+    margin-top: 5rem;
+    padding: 1.5rem;
+    img{
+       max-width:65rem;
+
+    }
+}
+
+}
+
+
+}
+input::placeholder{
+    font-size: 1.7rem;
+}
+
+input[type="email"]:focus {
+    outline: none;
+    border-color: $light-red;
+    border-width: 1px;
+    border-style: solid;
+}

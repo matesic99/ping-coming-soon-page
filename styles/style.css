@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8rem;
+}
+main .logo img {
+  height: 1.7rem;
+}
+main .heading {
+  margin-top: 3rem;
+}
+main .heading span {
+  font-weight: 700;
+  color: #151f29;
+}
+main .heading .title {
+  font-size: 2.6rem;
+  color: #969696;
+  font-weight: 300;
+}
+main p {
+  text-align: center;
+  font-size: 1.45rem;
+  color: #969696;
+  margin-top: 1.4rem;
+  font-weight: 400;
+}
+main .singin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
+}
+main .singin .input {
+  border-radius: 2rem;
+  border: 2px solid #c2d3ff;
+  padding: 0.9rem;
+  margin-top: 3rem;
+  outline: none;
+}
+main .singin .notify_me {
+  padding: 1.2rem;
+  margin-top: 1.2rem;
+  background-color: #4f7df3;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid;
+  outline: none;
+}
+main .singin .notify_me:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+main .singin .error_msg {
+  display: none;
+  color: #ff5263;
+}
+main .photo {
+  margin-top: 5rem;
+  padding: 1.5rem;
+}
+main .photo img {
+  max-width: 32rem;
+  height: auto;
+}
+
+footer .media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 2rem 0rem 2rem;
+  margin-top: 5rem;
+}
+footer .media .icons {
+  padding: 1.2rem;
+}
+footer .media ion-icon {
+  color: #4f7df3;
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: 0.5px solid #c2d3ff;
+}
+footer .media ion-icon:hover {
+  background-color: #c2d3ff;
+  color: white;
+  cursor: pointer;
+}
+footer .copy {
+  margin-top: 5rem;
+  text-align: center;
+  color: #969696;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+input::-moz-placeholder {
+  padding-left: 0.5rem;
+}
+
+input:-ms-input-placeholder {
+  padding-left: 0.5rem;
+}
+
+input::placeholder {
+  padding-left: 0.5rem;
+}
+
+@media (min-width: 1440px) {
+  main .logo img {
+    height: 2.7rem;
+  }
+  main .heading {
+    margin-top: 3rem;
+  }
+  main .heading span {
+    font-weight: 700;
+    color: #151f29;
+  }
+  main .heading .title {
+    margin-top: 2rem;
+    font-size: 5.4rem;
+  }
+  main .heading p {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1.4rem;
+    font-weight: 400;
+  }
+  main .singin {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  main .singin .input {
+    width: 38%;
+    padding: 2rem;
+    border-radius: 3rem;
+  }
+  main .singin .notify_me {
+    margin-top: 2.6rem;
+    width: 18%;
+    padding: 1.9rem;
+    border-radius: 3rem;
+    font-size: 1.6rem;
+    margin-left: 1.7rem;
+  }
+  main .singin .error_msg {
+    position: absolute;
+    left: 35rem;
+    top: 9rem;
+    display: none;
+  }
+  main .photo {
+    margin-top: 5rem;
+    padding: 1.5rem;
+  }
+  main .photo img {
+    max-width: 65rem;
+  }
+}
+input::-moz-placeholder {
+  font-size: 1.7rem;
+}
+input:-ms-input-placeholder {
+  font-size: 1.7rem;
+}
+input::placeholder {
+  font-size: 1.7rem;
+}
+
+input[type=email]:focus {
+  outline: none;
+  border-color: #ff5263;
+  border-width: 1px;
+  border-style: solid;
+}/*# sourceMappingURL=style.css.map */

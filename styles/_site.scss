@@ -1,0 +1,136 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8rem;
+
+    .logo{
+        img{
+            height: 1.7rem;
+        }
+    }
+
+    .heading{
+        margin-top: 3rem;
+        span{
+            font-weight: 700;
+            color: $very-dark-blue;
+        }
+
+        .title{
+            font-size: 2.6rem;
+            color: $gray;
+            font-weight: 300;
+        }
+    }
+    p{
+        text-align: center;
+        font-size: 1.45rem;
+        color:$gray;
+        margin-top: 1.4rem;
+        font-weight: 400;
+    }
+
+    .singin{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 75%;
+        
+
+        .input{
+            border-radius: 2rem;
+            border:2px solid $pale-blue;
+            padding: 0.9rem;
+            margin-top: 3rem;
+            outline: none;
+
+            
+            
+        }
+        .notify_me{
+            padding: 1.2rem;
+            margin-top: 1.2rem;
+            background-color: $blue;
+            color: white;
+            font-size: 1.2rem;
+            border-radius: 2rem;
+            border: 1px solid;
+            outline: none;
+            
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                opacity: 0.5;
+                cursor: pointer;
+            }
+
+
+        }
+
+
+        .error_msg{
+           display: none;
+            color:$light-red;
+        }
+
+    }
+    .photo{
+        margin-top: 5rem;
+        padding: 1.5rem;
+        img{
+           max-width: 32rem;
+            height: auto;
+        }
+    }
+
+
+
+
+
+
+
+}
+
+footer{    
+    .media{
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        padding: 0rem 2rem 0rem 2rem ;
+        margin-top: 5rem;
+
+        .icons{
+            padding: 1.2rem;
+        }
+
+        ion-icon {
+            color:$blue;
+            font-size: 1.6rem;
+            padding: 0.5rem;
+            border-radius: 50%;
+            border: 0.5px solid $pale-blue;
+
+            &:hover{
+                background-color: $pale-blue;
+                color: white;
+                cursor: pointer ;
+
+            }
+        }
+    }
+
+  .copy{
+      margin-top: 5rem;
+      text-align: center;
+      color: $gray;
+      font-weight: 300;
+      font-size: 1.2rem;
+      
+  }
+}
+
+input::placeholder{
+    padding-left: 0.5rem;
+}
+
